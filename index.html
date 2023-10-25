@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3D CUBE ANIMATION</title>
+    <!-- FONTS -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/rd-bl-logo.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Poppins -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <button id="animate-btn">ANIMATE</button>
+    <div class="animation-iteration">
+      <button id="animation-count" value="1">1</button>
+      <button id="animation-count" value="2">2</button>
+      <button id="animation-count" value="3">3</button>
+      <button class="active" id="animation-count" value="infinite">
+        INFINITE
+      </button>
+    </div>
+    <div class="container" id="cube-container">
+      <span id="hover-text">HOVER TO ANIMATE</span>
+      <div class="cube" id="rubiks-cube">
+        <div class="side front">
+          <div class="box">
+            <h4 class="credits" id="credits-text">JCFcodex</h4>
+          </div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+        </div>
+        <div class="side left">
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+        </div>
+        <div class="side right">
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+        </div>
+        <div class="side back">
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box">
+            <h4 class="message love" id="love-message">LOVE</h4>
+          </div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+        </div>
+        <div class="side top">
+          <div class="box">
+            <h4 class="message you" id="you-message">YOU</h4>
+          </div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+        </div>
+        <div class="side bottom">
+          <div class="box">
+            <h4 class="message i" id="i-message">I</h4>
+          </div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box">
+            <img
+              src="images/rd-wh-logo.png"
+              alt="JCFcodex"
+              width="100%"
+              draggable="false"
+            />
+          </div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
