@@ -88,7 +88,7 @@ body {
   transform: translateZ(100px);
 }
 .front > * {
-  background-color: #fa4659;
+  background-color: #ff2208;
 }
 
 .back {
@@ -96,7 +96,7 @@ body {
   transform: translateZ(-100px);
 }
 .back > * {
-  background-color: #ef913d;
+  background-color: #ff9d02;
 }
 
 .left {
@@ -104,7 +104,7 @@ body {
   transform: rotateY(-90deg) translateZ(100px);
 }
 .left > * {
-  background-color: #00a9ff;
+  background-color: #0084e3;
 }
 
 .right {
@@ -112,7 +112,7 @@ body {
   transform: rotateY(90deg) translateZ(100px);
 }
 .right > * {
-  background-color: #9cff2e;
+  background-color: #01dd25;
 }
 
 .top {
@@ -120,7 +120,7 @@ body {
   transform: rotateX(90deg) translateZ(100px);
 }
 .top > * {
-  background-color: #ffd966;
+  background-color: #eeff01;
 }
 
 .bottom {
@@ -155,10 +155,15 @@ span {
 
 .message {
   position: absolute;
-  top: -3rem;
+  top: -3.5rem;
+  left: 0;
   color: #fff;
+  font-size: 1.1rem;
   opacity: 0;
   transition: opacity 0.15s ease;
+  border: 1px solid #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 12px;
 }
 
 .love {
