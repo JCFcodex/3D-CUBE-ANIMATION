@@ -228,7 +228,7 @@ span {
     transform: rotateX(310deg);
   }
   50% {
-    transform: rotateY(385deg);
+    transform: rotateY(-180deg);
   }
 
   60% {
