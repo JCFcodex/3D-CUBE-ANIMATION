@@ -219,10 +219,10 @@ span {
     transform: rotateY(75deg);
   }
   20% {
-    transform: rotateX(155deg);
+    transform: rotateX(125deg) scale3d(1.5, 1.5, 1.5);
   }
   30% {
-    transform: rotateY(235deg);
+    transform: rotateY(235deg) scale(1);
   }
   40% {
     transform: rotateX(310deg);
