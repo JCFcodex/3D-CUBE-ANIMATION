@@ -79,7 +79,7 @@ body {
 .box {
   border: 1px solid #333;
   width: 100%;
-  border-radius: 8px;
+  border-radius: 12px;
   overflow: hidden;
 }
 
@@ -129,6 +129,11 @@ body {
 }
 .bottom > * {
   background-color: #fff;
+}
+
+.middle {
+  border-radius: 50%;
+  overflow: hidden;
 }
 
 span {
