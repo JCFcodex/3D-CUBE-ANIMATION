@@ -88,7 +88,7 @@ body {
   transform: translateZ(100px);
 }
 .front > * {
-  background-color: red;
+  background-color: #fa4659;
 }
 
 .back {
@@ -96,7 +96,7 @@ body {
   transform: translateZ(-100px);
 }
 .back > * {
-  background-color: orangered;
+  background-color: #ef913d;
 }
 
 .left {
@@ -104,7 +104,7 @@ body {
   transform: rotateY(-90deg) translateZ(100px);
 }
 .left > * {
-  background-color: blue;
+  background-color: #00a9ff;
 }
 
 .right {
@@ -112,7 +112,7 @@ body {
   transform: rotateY(90deg) translateZ(100px);
 }
 .right > * {
-  background-color: green;
+  background-color: #9cff2e;
 }
 
 .top {
@@ -120,7 +120,7 @@ body {
   transform: rotateX(90deg) translateZ(100px);
 }
 .top > * {
-  background-color: yellow;
+  background-color: #ffd966;
 }
 
 .bottom {
@@ -128,7 +128,7 @@ body {
   transform: rotateX(-90deg) translateZ(100px);
 }
 .bottom > * {
-  background-color: white;
+  background-color: #fff;
 }
 
 span {
