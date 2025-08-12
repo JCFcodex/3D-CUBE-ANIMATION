@@ -22,50 +22,15 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="control-panel">
-      <div class="controls-header">
-        <h2>Control Panel</h2>
-        <button id="theme-toggle">☀️</button>
-      </div>
-
-      <div class="control-group">
-        <button id="animate-btn">Animate</button>
-      </div>
-
-      <div class="control-group">
-        <label for="speed-slider">Speed:</label>
-        <input type="range" id="speed-slider" min="1" max="20" value="10" />
-      </div>
-
-      <div class="control-group">
-        <label>Iteration Count:</label>
-        <div class="animation-iteration">
-          <button class="animation-count" value="1">1</button>
-          <button class="animation-count" value="2">2</button>
-          <button class="animation-count" value="3">3</button>
-          <button class="animation-count active" value="infinite">
-            Infinite
-          </button>
-        </div>
-      </div>
-
-      <div class="control-group">
-        <label>Cube Colors:</label>
-        <div id="color-palette"></div>
-      </div>
-
-      <div class="control-group text-inputs">
-        <label for="front-text">Front Text:</label>
-        <input type="text" id="front-text" data-target="credits-text" value="JCFcodex" />
-        <label for="back-text">Back Text:</label>
-        <input type="text" id="back-text" data-target="love-message" value="LOVE" />
-        <label for="top-text">Top Text:</label>
-        <input type="text" id="top-text" data-target="you-message" value="YOU" />
-        <label for="bottom-text">Bottom Text:</label>
-        <input type="text" id="bottom-text" data-target="i-message" value="I" />
-      </div>
+    <button id="animate-btn">ANIMATE</button>
+    <div class="animation-iteration">
+      <button id="animation-count" value="1">1</button>
+      <button id="animation-count" value="2">2</button>
+      <button id="animation-count" value="3">3</button>
+      <button class="active" id="animation-count" value="infinite">
+        INFINITE
+      </button>
     </div>
-
     <div class="container" id="cube-container">
       <span id="hover-text">HOVER TO ANIMATE</span>
       <div class="cube" id="rubiks-cube">
@@ -136,7 +101,7 @@
           </div>
           <div class="box"></div>
           <div class="box"></div>
-          <div class "box"></div>
+          <div class="box"></div>
           <div class="box middle">
             <img
               src="images/rd-wh-logo.png"
